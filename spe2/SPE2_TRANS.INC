@@ -4,6 +4,8 @@
 -- (University of Benin), Osayomwanbo Aiyohunyin (University of Benin), 
 -- and Steve Adewole (University of Benin).
 -- 
+-- Copyright (C) 2026 Ame Enosolease
+-- 
 -- Explicit radial (TRANX) and vertical (TRANZ) transmissibilities for SPE-2.
 -- Generated because OPM Flow 2025.10 mis-computes cylindrical-grid
 -- transmissibilities from INRAD/DRV/DTHETAV (pore volumes are correct).
