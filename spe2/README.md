@@ -45,6 +45,11 @@ collection is an independent cross-check of the `PVTO`/`PVDG` values.
 |---|---|
 | `SPE2.DATA` | The complete deck (FIELD units, three-phase black oil, RADIAL). |
 | `SPE2_TRANS.INC` | Explicit radial/vertical transmissibilities (see note below). |
+| `SPE2-XYZ.DATA` | Reformulation of the radial coning-cusping problem on a cartesian grid | 
+| `SPE2-LOG-GRADED-XYZ.DATA` | Cartesian reformulation with graded grid mirroring radii | 
+| `SPE2-XYZ-ANISOTROPY.DATA` | Cartesian equispaced grid with heterogenous porosity layers | 
+| `SPE2-XYZ-DECLINE.DATA` | Cartesian graded grid with perfect rate-decline settings | 
+| `make_decks.py` | Generate heterogeneity with a normal distribution about layer porosity | 
 
 ## Note on the transmissibility workaround (`SPE2_TRANS.INC`)
 
